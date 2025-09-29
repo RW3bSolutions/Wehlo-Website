@@ -32,7 +32,7 @@ Route::get('/cases_details/{id}', [PageController::class, 'cases_details'])->nam
 Route::get('/blogs', [PageController::class, 'blogs'])->name('blogs');
 Route::get('/blogs_details/{slug}', [PageController::class, 'blogs_details'])->name('blogs_details');
 Route::get('/platform', [PageController::class, 'platform'])->name('platform');
-Route::get('/dashboards', [PageController::class, 'dashboards'])->name('platform');
+Route::get('/dashboards', [PageController::class, 'dashboards'])->name('platform.dashboard');
 
 
 Route::get('/contacts/data', [ContactUsController::class, 'getContacts'])->name('contacts.data');
