@@ -3,9 +3,9 @@ import { Link, router, usePage } from "@inertiajs/react";
 import { Search, Menu, X } from "lucide-react";
 import { useState, useEffect, useCallback, useRef } from "react";
 import clsx from "clsx";
-import SearchModal from "@/Components/SearchModal";
-import GoogleTranslate from "@/Components/GoogleTranslate"; // Import the headless GoogleTranslate
-import LanguageSelector from "@/Components/LanguageSelector"; // Import the new LanguageSelector
+import SearchModal from "@/components/SearchModal";
+import GoogleTranslate from "@/components/GoogleTranslate"; // Import the headless GoogleTranslate
+import LanguageSelector from "@/components/LanguageSelector"; // Import the new LanguageSelector
 
 export default function Header() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

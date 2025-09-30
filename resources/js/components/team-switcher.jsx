@@ -1,6 +1,6 @@
 import * as React from "react";
 import { ChevronsUpDown, Plus } from "lucide-react";
-import ApplicationLogo from "@/Components/ApplicationLogo";
+import ApplicationLogo from "@/components/ApplicationLogo";
 
 import {
     DropdownMenu,
