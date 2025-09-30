@@ -6,7 +6,7 @@ export default function BannerCards({ cards }) {
                     key={index}
                     className="flex items-center justify-center p-4 text-center transition-shadow duration-300 bg-white shadow-md rounded-xl hover:shadow-xl"
                 >
-                    <h3 className="text-base font-medium text-blue-700 sm:text-lg md:text-xl">
+                    <h3 className="text-base font-medium text-blue-700 sm:text-lg md:text-sm lg:text-xl">
                         {text}
                     </h3>
                 </div>

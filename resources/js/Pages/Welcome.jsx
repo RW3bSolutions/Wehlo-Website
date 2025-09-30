@@ -166,7 +166,7 @@ export default function Welcome() {
 
                                 return (
                                     <SwiperSlide key={index}>
-                                        <div className="relative w-full h-[90vh]">
+                                        <div className="relative w-full h-full lg:h-[90vh]">
                                             {/* Banner image */}
                                             <img
                                                 className="object-cover w-full h-full brightness-90"
@@ -628,7 +628,7 @@ export default function Welcome() {
                                                         )}
                                                     </p>
                                                     <Link
-                                                        href={`/blogs_details/${item.slug}`}
+                                                        href={`/blogs_details/${item.id}`}
                                                     >
                                                         <button className="py-2 font-bold border-b-2 border-b-[#8bd3cf]">
                                                             Read More
