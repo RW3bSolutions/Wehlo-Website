@@ -3,7 +3,7 @@ import { useForm } from "@inertiajs/react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Link } from "@inertiajs/react";
-import CKEditor from "@/components/CKeditor";
+import CKEditor from "@/components/CKEditor";
 
 const NewsForm = ({
     categories = [],
