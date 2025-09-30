@@ -628,7 +628,7 @@ export default function Welcome() {
                                                         )}
                                                     </p>
                                                     <Link
-                                                        href={`/blogs_details/${item.id}`}
+                                                        href={`/blogs_details/${item.slug}`}
                                                     >
                                                         <button className="py-2 font-bold border-b-2 border-b-[#8bd3cf]">
                                                             Read More
