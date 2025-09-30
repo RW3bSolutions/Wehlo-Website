@@ -1,7 +1,7 @@
 // resources/js/Pages/Banners/Create.jsx
 import React from "react";
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
-import CaseStudyForm from "@/Components/Admin/Forms/CaseStudy/CaseStudyForm";
+import CaseStudyForm from "@/components/Admin/Forms/CaseStudy/CaseStudyForm";
 
 const CreateCaseStudy = () => {
     return (

@@ -11,7 +11,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import AnimatedButton from "@/components/AnimatedButton";
 import { motion, useAnimation } from "motion/react";
 import { useHighlightQuery } from "@/hooks/useHighlightQuery";
-import BannerCards from "@/Components/BannerCards"; // Import BannerCards component
+import BannerCards from "@/components/BannerCards"; // Import BannerCards component
 
 export default function Welcome() {
     const [banners, setBanners] = useState([]);

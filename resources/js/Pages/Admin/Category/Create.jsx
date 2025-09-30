@@ -1,7 +1,7 @@
 // resources/js/Pages/Banners/Create.jsx
 import React from "react";
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
-import CategoryForm from "@/Components/Admin/Forms/Category/CategoryForm";
+import CategoryForm from "@/components/Admin/Forms/Category/CategoryForm";
 
 const CreateCategory = () => {
     return (

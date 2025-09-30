@@ -5,8 +5,8 @@ import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
 import { Head } from "@inertiajs/react";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
-import { Button } from "@/Components/ui/button";
-import { useDeleteModal } from "@/Components/Admin/useDeleteModal"; // adjust path if needed
+import { Button } from "@/components/ui/button";
+import { useDeleteModal } from "@/omponents/Admin/useDeleteModal"; // adjust path if needed
 
 dayjs.extend(relativeTime);
 

@@ -2,7 +2,7 @@
 
 import React from "react";
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
-import CaseStudyForm from "@/Components/Admin/Forms/CaseStudy/CaseStudyForm";
+import CaseStudyForm from "@/components/Admin/Forms/CaseStudy/CaseStudyForm";
 
 const Edit = ({ case_study }) => {
     return (

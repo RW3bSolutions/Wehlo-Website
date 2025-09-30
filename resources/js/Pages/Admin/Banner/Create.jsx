@@ -1,7 +1,7 @@
 // resources/js/Pages/Banners/Create.jsx
 import React from "react";
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
-import BannerForm from "@/Components/Admin/Forms/Banner/BannerForm";
+import BannerForm from "@/components/Admin/Forms/Banner/BannerForm";
 
 const CreateBanner = () => {
     return (

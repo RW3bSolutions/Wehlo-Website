@@ -2,7 +2,7 @@
 
 import React from "react";
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
-import NewsForm from "@/Components/Admin/Forms/News/NewsForm";
+import NewsForm from "@/components/Admin/Forms/News/NewsForm";
 
 const Edit = ({ news, categories }) => {
     return (
