@@ -1,8 +1,8 @@
 import React from "react";
 import { useForm } from "@inertiajs/react";
-import { Button } from "@/Components/ui/button";
-import { Input } from "@/Components/ui/input";
-import CKEditor from "@/Components/CKeditor";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import CKEditor from "@/components/CKeditor";
 import { Link } from "@inertiajs/react";
 
 const CaseStudyForm = ({

@@ -1,9 +1,9 @@
 import React from "react";
 import { useForm } from "@inertiajs/react";
-import { Button } from "@/Components/ui/button";
-import { Input } from "@/Components/ui/input";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import { Link } from "@inertiajs/react";
-import CKEditor from "@/Components/CKeditor";
+import CKEditor from "@/components/CKeditor";
 
 const NewsForm = ({
     categories = [],
